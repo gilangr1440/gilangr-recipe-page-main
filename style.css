@@ -189,7 +189,7 @@ body {
 
 .header-section h1 {
   font-family: "YoungSerif";
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 600;
   color: var(--dark-charcoal);
 }
@@ -199,6 +199,7 @@ body {
   font-size: var(--paragraph);
   text-align: justify;
   color: var(--wenge-brown);
+  line-height: 25px;
 }
 
 .preparation-section {
@@ -239,6 +240,7 @@ body {
 .preparation-section ul li .preparation-content {
   font-family: "outfit";
   font-size: var(--paragraph);
+  line-height: 25px;
 }
 
 .ingredients-section {
@@ -269,6 +271,10 @@ body {
 
 .ingredients-section ul li .bullet {
   color: var(--nutmeg);
+}
+
+.ingredients-section ul li .ingredient-content {
+  line-height: 25px;
 }
 
 hr {
@@ -307,6 +313,10 @@ hr {
   font-weight: 700;
 }
 
+.instructions-section ul li .instructions-content {
+  line-height: 25px;
+}
+
 .nutrition-section {
   display: flex;
   flex-direction: column;
@@ -325,6 +335,7 @@ hr {
   font-size: var(--paragraph);
   color: var(--wenge-brown);
   text-align: justify;
+  line-height: 25px;
 }
 
 .nutrition-section table {
@@ -351,7 +362,7 @@ hr {
     width: 100vw;
     margin: 0;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 50px 45px;
     border-radius: 0;
   }
   .image-container {
@@ -380,7 +391,7 @@ hr {
 
 @media only screen and (min-width: 992px) and (max-width: 1440px) {
   .container {
-    width: 50%;
+    width: 45%;
     padding: 30px;
     margin: 70px auto;
     background-color: white;
