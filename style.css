@@ -204,10 +204,10 @@ body {
 }
 
 .preparation-section {
-  padding: 20px;
+  padding: 25px;
   background-color: var(--rose-white);
   border-radius: 10px;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
 .preparation-section h2 {
@@ -248,12 +248,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin: 26px 0;
+  margin: 30px 0;
 }
 
 .ingredients-section h2 {
   font-family: "YoungSerif";
-  font-size: 32px;
+  font-size: 28px;
   color: var(--nutmeg);
 }
 
@@ -286,12 +286,12 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin: 26px 0;
+  margin: 30px 0;
 }
 
 .instructions-section h2 {
   font-family: "YoungSerif";
-  font-size: 32px;
+  font-size: 28px;
   color: var(--nutmeg);
 }
 
@@ -322,12 +322,12 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin: 26px 0;
+  margin: 30px 0;
 }
 
 .nutrition-section h2 {
   font-family: "YoungSerif";
-  font-size: 32px;
+  font-size: 28px;
   color: var(--nutmeg);
 }
 
