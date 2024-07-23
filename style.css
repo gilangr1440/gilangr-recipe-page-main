@@ -172,12 +172,13 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 22px;
 }
 
 .image-container {
   width: 100%;
   border-radius: 10px;
+  margin-bottom: 18px;
 }
 
 .header-image {
@@ -189,8 +190,8 @@ body {
 
 .header-section h1 {
   font-family: "YoungSerif";
-  font-size: 32px;
-  font-weight: 600;
+  font-size: 38px;
+  font-weight: 400;
   color: var(--dark-charcoal);
 }
 
@@ -252,7 +253,7 @@ body {
 
 .ingredients-section h2 {
   font-family: "YoungSerif";
-  font-size: 22px;
+  font-size: 32px;
   color: var(--nutmeg);
 }
 
@@ -290,7 +291,7 @@ hr {
 
 .instructions-section h2 {
   font-family: "YoungSerif";
-  font-size: 22px;
+  font-size: 32px;
   color: var(--nutmeg);
 }
 
@@ -326,7 +327,7 @@ hr {
 
 .nutrition-section h2 {
   font-family: "YoungSerif";
-  font-size: 22px;
+  font-size: 32px;
   color: var(--nutmeg);
 }
 
@@ -377,13 +378,16 @@ hr {
     height: 100%;
     object-fit: cover;
   }
+  .header-section h1 {
+    font-size: 34px;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
   .container {
     width: 65%;
     padding: 30px;
-    margin: 70px auto;
+    margin: 100px auto;
     background-color: white;
     border-radius: 10px;
   }
@@ -393,7 +397,7 @@ hr {
   .container {
     width: 45%;
     padding: 40px;
-    margin: 150px auto;
+    margin: 120px auto;
     background-color: white;
     border-radius: 10px;
   }
